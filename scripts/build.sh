@@ -1,0 +1,1 @@
+REACT_APP_URL=chat.darahayes.com TAG=$TAG npm run docker:build

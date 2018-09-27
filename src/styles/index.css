@@ -1,0 +1,80 @@
+.blueBg {
+  background-color: red;
+  /* color: white; */
+}
+
+ul {
+  list-style: none;
+}
+
+.sideBar {
+  background-color: #3c2a3b;
+  /* color: white; */
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  padding: 15px;
+}
+
+/**
+*	Messages
+*/
+.messagePage {
+  /* position: absolute; */
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+.messagePage .messageHeaderWrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding-left: 15px;
+  border-bottom: 1px solid #ddd;
+  display: "inline-block";
+}
+
+.channelTitle {
+  display: inline-block;
+}
+
+.sidebarToggle {
+  padding-right: 5px;
+}
+
+
+.messagePage .messageListWrapper {
+  overflow: scroll;
+  position: absolute;
+  top: 69px;
+  left: 0;
+  right: 0;
+  bottom: 50px;
+}
+.messagePage .messageInputWrapper {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  display: inline-block;
+}
+.messagePage .messageBlock {
+  padding: 5px;
+}
+.messagePage .messageBlock .messageIconBlock {
+  display: inline;
+}
+.messagePage .messageBlock .messageContent {
+  display: inline;
+}
+.messagePage .messageBlock .messageHeader h6 {
+  display: inline;
+  margin-right: 10px;
+}
+.inline {
+  display: inline-block;
+}

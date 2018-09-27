@@ -1,0 +1,33 @@
+{
+  "name": "apollo-slack",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "ajv": "^6.5.3",
+    "apollo-boost": "^0.1.15",
+    "apollo-link-ws": "^1.0.8",
+    "bootstrap": "^4.1.3",
+    "cors": "^2.8.4",
+    "graphql": "^0.13.2",
+    "jquery": "^1.12.4",
+    "popper.js": "^1.14.4",
+    "react": "^16.4.2",
+    "react-apollo": "^2.1.11",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.4.2",
+    "react-emoji-render": "^0.4.5",
+    "react-modal": "^3.5.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.5",
+    "react-sidebar": "^3.0.2",
+    "subscriptions-transport-ws": "^0.9.14"
+  },
+  "scripts": {
+    "start:dev": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "start": "node server/server.js",
+    "docker:build": "npm run build && docker build -t darahayes/apollo-slack:$TAG . && docker push darahayes/apollo-slack:$TAG"
+  }
+}
