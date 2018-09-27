@@ -1,7 +1,9 @@
 ## Apollo Slack
 
 This is a very basic Slack application I hacked together for an introductory talk on GraphQL.
-The application consists of a GraphQL backend built with [Apollo Server](), a React frontend and an in memory database.
+The application consists of a GraphQL backend built with [Apollo Server](https://www.apollographql.com/docs/apollo-server/), a React frontend and an in memory database.
+
+Slides for the Talk: [slides.com/darahayes/intro-to-graphq](https://slides.com/darahayes/intro-to-graphq)
 
 Full disclaimer: I am not a frontend developer so while the finished product looks somewhat decent, the code is an absolute mess :) The talk was much more focused on API design.
 
@@ -54,7 +56,3 @@ npm run start:dev
 ```
 
 You should still keep the API running in the background for the frontend to talk to the API.
-
-#### License
-
-MIT
